@@ -20,8 +20,9 @@
 * Write lib in index.js
 * Test lib in test.js
 * Provide example in example.js
-* Update package.json with new lib name
+* Update "name" and "main" in package.json
 * Rewrite this readme
+* `npm run build` and commit
 
 ## Install
 

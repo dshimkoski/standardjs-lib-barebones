@@ -8,6 +8,8 @@
     "test": "c8 tape -r esm test.js | tap-spec",
     "watch": "chokidar \"**/*.js\" -c \"npm test\""
   },
+  "main": "dist/standardjs-lib-barebones.js",
+  "source": "index.js",
   "author": "",
   "license": "ISC",
   "devDependencies": {
