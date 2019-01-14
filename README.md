@@ -12,6 +12,7 @@
 
 * `npm run build` - find output in dist
 * `npm run example`
+* `npm run watch`
 * `npm test`
 
 ## TODO

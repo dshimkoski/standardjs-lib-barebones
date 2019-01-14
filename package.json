@@ -5,12 +5,14 @@
   "scripts": {
     "build": "microbundle -o dist",
     "example": "node -r esm example",
-    "test": "c8 tape -r esm test.js | tap-spec"
+    "test": "c8 tape -r esm test.js | tap-spec",
+    "watch": "chokidar \"**/*.js\" -c \"npm test\""
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "c8": "^3.2.1",
+    "chokidar-cli": "^1.2.1",
     "esm": "^3.0.84",
     "microbundle": "^0.9.0",
     "standard": "^12.0.1",
