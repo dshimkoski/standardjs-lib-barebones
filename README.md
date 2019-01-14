@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dshimkoski/standardjs-lib-barebones.svg?branch=master)](https://travis-ci.org/dshimkoski/standardjs-lib-barebones) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 # standardjs-lib-barebones
 
 * c8 for coverage (Node.js >= 10.12.0)
