@@ -1,20 +1,22 @@
 {
-  "name": "standardjs-lib-barebones",
+  "name": "lib",
   "version": "0.1.0",
   "description": "",
   "scripts": {
     "build": "microbundle -o dist",
-    "example": "node -r esm example",
-    "test": "c8 tape -r esm test.js | tap-spec",
-    "watch": "chokidar \"**/*.js\" -c \"npm test\""
+    "doc": "docz dev",
+    "test": "c8 tape -r esm src/test/*.js | tap-spec",
+    "watch": "chokidar \"src/**/*.js\" -c \"npm test\""
   },
-  "main": "dist/standardjs-lib-barebones.js",
-  "source": "index.js",
+  "main": "dist/lib.js",
+  "source": "src/index.js",
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "c8": "^3.2.1",
     "chokidar-cli": "^1.2.1",
+    "docz": "^0.13.7",
+    "docz-theme-default": "^0.13.7",
     "esm": "^3.0.84",
     "microbundle": "^0.9.0",
     "standard": "^12.0.1",

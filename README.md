@@ -3,6 +3,7 @@
 # standardjs-lib-barebones
 
 * c8 for coverage (Node.js >= 10.12.0)
+* docz for documentation
 * esm for module support
 * microbundle for output formats
 * standardjs code style
@@ -11,16 +12,16 @@
 ## Commands
 
 * `npm run build` - find output in dist
-* `npm run example`
+* `npm run doc`
 * `npm run watch`
 * `npm test`
 
 ## TODO
 
-* Write lib in index.js
-* Test lib in test.js
-* Provide example in example.js
-* Update "name" and "main" in package.json
+* Write lib in `src`
+* Test lib in `src/test`
+* Provide documentation in `doc`
+* Update "name" and "main" in `package.json`
 * Rewrite this readme
 * `npm run build` and commit
 
